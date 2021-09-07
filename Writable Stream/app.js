@@ -11,9 +11,6 @@ var time=0;
 var readableStream = fs.createReadStream(__dirname +'/ReadFile.txt', 'utf8');
 var WritableStream = fs.createWriteStream(__dirname +'/WriteFile.txt',);
 
-
-
-
 // create a listener
 readableStream.on('data', (chunk) => {
     console.log('Fetched Block : '+ (x= x+1));
