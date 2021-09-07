@@ -1,4 +1,3 @@
-
 var http  = require('http');
 var server = http.createServer((req,res) => {
     console.log('Request was made ' +req.url)
